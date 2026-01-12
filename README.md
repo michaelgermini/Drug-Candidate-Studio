@@ -244,7 +244,7 @@ Optimized for oral bioavailability prediction:
 | Criterion | Threshold | Rationale |
 |-----------|-----------|-----------|
 | **Rotatable Bonds** | ≤ 10 | Flexibility affects oral absorption |
-| **Polar Surface Area** | ≤ 140 Ų | High PSA reduces intestinal permeability |
+| **Polar Surface Area** | ≤ 140 Å² | High PSA reduces intestinal permeability |
 
 **Example**: Metformin (RotBonds=0, PSA=68.5) ✅ **Excellent oral bioavailability**
 

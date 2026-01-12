@@ -197,13 +197,57 @@ Enable from **View** menu:
 
 ### Pharmaceutical Scaffolds
 
-30+ real drug templates including:
-- 💊 NSAIDs: Aspirin, Ibuprofen, Naproxen
-- 💉 Antibiotics: Penicillin, Ciprofloxacin
-- ❤️ Cardiovascular: Atenolol, Propranolol
-- 🧠 CNS: Diazepam, Fluoxetine, Caffeine
-- 🦠 Antivirals: Acyclovir, Oseltamivir
-- And more...
+**30 real drug templates** organized by therapeutic category:
+
+#### 💊 Analgesics & Anti-inflammatory (4)
+- **Aspirin** - `CC(=O)Oc1ccccc1C(=O)O`
+- **Ibuprofen** - `CC(C)Cc1ccc(cc1)C(C)C(=O)O`
+- **Paracetamol** - `CC(=O)Nc1ccc(O)cc1`
+- **Naproxen** - `COc1ccc2cc(ccc2c1)C(C)C(=O)O`
+
+#### 💉 Antibiotics (3)
+- **Penicillin-core** - `CC1(C)SC2C(NC(=O)C)C(=O)N2C1C(=O)O`
+- **Sulfanilamide** - `Nc1ccc(cc1)S(N)(=O)=O`
+- **Ciprofloxacin-core** - `c1cc2c(cc1F)c(=O)c(cn2C3CC3)C(=O)O`
+
+#### ❤️ Cardiovascular (3)
+- **Atenolol** - `CC(C)NCC(O)COc1ccc(cc1)CC(N)=O`
+- **Propranolol** - `CC(C)NCC(O)COc1cccc2ccccc12`
+- **Lisinopril-core** - `NCCCC(N)C(=O)N1CCCC1C(=O)O`
+
+#### 🧠 Central Nervous System (4)
+- **Diazepam-core** - `CN1C(=O)CN=C(c2ccccc2)c3cc(Cl)ccc13`
+- **Fluoxetine** - `CNCCC(Oc1ccc(cc1)C(F)(F)F)c2ccccc2`
+- **Sertraline-core** - `CNC1CCC(c2ccc(Cl)c(Cl)c2)c3ccccc13`
+- **Caffeine** - `Cn1cnc2c1c(=O)n(c(=O)n2C)C`
+
+#### 🤧 Antihistamines (2)
+- **Diphenhydramine** - `CN(C)CCOC(c1ccccc1)c2ccccc2`
+- **Loratadine-core** - `CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc4cccnc24)CC1`
+
+#### 🩺 Antidiabetics (2)
+- **Metformin** - `CN(C)C(=N)NC(=N)N`
+- **Glipizide-core** - `Cc1cnc(cn1)C(=O)NCCc2ccc(cc2)S(=O)(=O)NC(=O)N`
+
+#### 🦠 Antivirals (2)
+- **Acyclovir** - `Nc1nc2c(ncn2COCCO)c(=O)[nH]1`
+- **Oseltamivir-core** - `CCOC(=O)C1=CC(OC(CC)CC)C(NC(C)=O)C(N)C1`
+
+#### 🎯 Anticancer (2)
+- **Imatinib-core** - `Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc4nccc(n4)c5cccnc5`
+- **Methotrexate-core** - `CN(Cc1cnc2nc(N)nc(N)c2n1)c3ccc(cc3)C(=O)NC(CCC(=O)O)C(=O)O`
+
+#### 🧪 Common Heterocyclic Scaffolds (8)
+- **Benzimidazole** - `c1ccc2[nH]cnc2c1`
+- **Quinoline** - `c1ccc2ncccc2c1`
+- **Indole** - `c1ccc2[nH]ccc2c1`
+- **Pyrimidine** - `c1cncnc1`
+- **Piperidine** - `C1CCNCC1`
+- **Morpholine** - `C1COCCN1`
+- **Piperazine** - `C1CNCCN1`
+- **Thiazole** - `c1cscn1`
+- **Oxazole** - `c1cocn1`
+- **Triazole** - `c1cn[nH]n1`
 
 ---
 

@@ -10,12 +10,12 @@
   <rect width="800" height="400" fill="url(#featBg)" rx="15"/>
   
   <!-- Title -->
-  <text x="400" y="40" fill="#ffffff" text-anchor="middle" font-size="24" font-weight="bold">( Key Features</text>
+  <text x="400" y="40" fill="#ffffff" text-anchor="middle" font-size="24" font-weight="bold">Key Features</text>
   
   <!-- Feature 1: Generation -->
   <g transform="translate(100, 100)">
     <rect x="-60" y="-30" width="120" height="120" fill="#1e293b" stroke="#4ade80" stroke-width="2" rx="10"/>
-    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="30">>ì</text>
+    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="20" font-weight="bold">DNA</text>
     <text x="0" y="35" fill="#4ade80" text-anchor="middle" font-size="12" font-weight="bold">Molecular</text>
     <text x="0" y="50" fill="#4ade80" text-anchor="middle" font-size="12" font-weight="bold">Generation</text>
     <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">Real drug scaffolds</text>
@@ -24,7 +24,7 @@
   <!-- Feature 2: Optimization -->
   <g transform="translate(250, 100)">
     <rect x="-60" y="-30" width="120" height="120" fill="#1e293b" stroke="#60a5fa" stroke-width="2" rx="10"/>
-    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="30">=Ê</text>
+    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="20" font-weight="bold">CHART</text>
     <text x="0" y="35" fill="#60a5fa" text-anchor="middle" font-size="12" font-weight="bold">Multi-Objective</text>
     <text x="0" y="50" fill="#60a5fa" text-anchor="middle" font-size="12" font-weight="bold">Optimization</text>
     <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">Pareto analysis</text>
@@ -33,7 +33,7 @@
   <!-- Feature 3: Druglikeness -->
   <g transform="translate(400, 100)">
     <rect x="-60" y="-30" width="120" height="120" fill="#1e293b" stroke="#f472b6" stroke-width="2" rx="10"/>
-    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="30">=Š</text>
+    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="20" font-weight="bold">PILL</text>
     <text x="0" y="35" fill="#f472b6" text-anchor="middle" font-size="12" font-weight="bold">Drug-likeness</text>
     <text x="0" y="50" fill="#f472b6" text-anchor="middle" font-size="12" font-weight="bold">Rules</text>
     <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">Lipinski + Veber + PAINS</text>
@@ -42,7 +42,7 @@
   <!-- Feature 4: Similarity -->
   <g transform="translate(550, 100)">
     <rect x="-60" y="-30" width="120" height="120" fill="#1e293b" stroke="#fbbf24" stroke-width="2" rx="10"/>
-    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="30">=,</text>
+    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="20" font-weight="bold">MAG</text>
     <text x="0" y="35" fill="#fbbf24" text-anchor="middle" font-size="12" font-weight="bold">Similarity</text>
     <text x="0" y="50" fill="#fbbf24" text-anchor="middle" font-size="12" font-weight="bold">Analysis</text>
     <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">Tanimoto + Clustering</text>
@@ -51,7 +51,7 @@
   <!-- Feature 5: Visualization -->
   <g transform="translate(700, 100)">
     <rect x="-60" y="-30" width="120" height="120" fill="#1e293b" stroke="#a78bfa" stroke-width="2" rx="10"/>
-    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="30">=È</text>
+    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="20" font-weight="bold">GRAPH</text>
     <text x="0" y="35" fill="#a78bfa" text-anchor="middle" font-size="12" font-weight="bold">Advanced</text>
     <text x="0" y="50" fill="#a78bfa" text-anchor="middle" font-size="12" font-weight="bold">Visualization</text>
     <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">3D + Heatmap + Charts</text>
@@ -61,7 +61,7 @@
   <!-- Feature 6: History -->
   <g transform="translate(175, 260)">
     <rect x="-60" y="-30" width="120" height="100" fill="#1e293b" stroke="#22d3d1" stroke-width="2" rx="10"/>
-    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="30">©</text>
+    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="20" font-weight="bold">UNDO</text>
     <text x="0" y="35" fill="#22d3d1" text-anchor="middle" font-size="12" font-weight="bold">Undo/Redo</text>
     <text x="0" y="55" fill="#9ca3af" text-anchor="middle" font-size="9">Full history</text>
   </g>
@@ -69,7 +69,7 @@
   <!-- Feature 7: Annotations -->
   <g transform="translate(325, 260)">
     <rect x="-60" y="-30" width="120" height="100" fill="#1e293b" stroke="#fb923c" stroke-width="2" rx="10"/>
-    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="30">P</text>
+    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="20" font-weight="bold">STAR</text>
     <text x="0" y="35" fill="#fb923c" text-anchor="middle" font-size="12" font-weight="bold">Annotations</text>
     <text x="0" y="55" fill="#9ca3af" text-anchor="middle" font-size="9">Notes + Favorites</text>
   </g>
@@ -77,7 +77,7 @@
   <!-- Feature 8: Themes -->
   <g transform="translate(475, 260)">
     <rect x="-60" y="-30" width="120" height="100" fill="#1e293b" stroke="#e879f9" stroke-width="2" rx="10"/>
-    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="30"><¨</text>
+    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="20" font-weight="bold">PAL</text>
     <text x="0" y="35" fill="#e879f9" text-anchor="middle" font-size="12" font-weight="bold">Themes</text>
     <text x="0" y="55" fill="#9ca3af" text-anchor="middle" font-size="9">Dark/Light + Colors</text>
   </g>
@@ -85,7 +85,7 @@
   <!-- Feature 9: Import/Export -->
   <g transform="translate(625, 260)">
     <rect x="-60" y="-30" width="120" height="100" fill="#1e293b" stroke="#34d399" stroke-width="2" rx="10"/>
-    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="30">=å</text>
+    <text x="0" y="0" fill="#ffffff" text-anchor="middle" font-size="20" font-weight="bold">IO</text>
     <text x="0" y="35" fill="#34d399" text-anchor="middle" font-size="12" font-weight="bold">Import/Export</text>
     <text x="0" y="55" fill="#9ca3af" text-anchor="middle" font-size="9">SMILES, CSV, JSON, SDF</text>
   </g>

@@ -10,7 +10,7 @@
   <rect width="400" height="200" fill="url(#molBg)" rx="10"/>
   
   <!-- Title -->
-  <text x="200" y="25" fill="#ffffff" text-anchor="middle" font-size="14" font-weight="bold">>ì Molecular Generation</text>
+  <text x="200" y="25" fill="#ffffff" text-anchor="middle" font-size="14" font-weight="bold">Molecular Generation</text>
   
   <!-- Benzene ring -->
   <g transform="translate(80, 100)">

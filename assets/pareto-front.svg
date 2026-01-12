@@ -18,8 +18,8 @@
   </g>
   
   <!-- Axis labels -->
-  <text x="220" y="280" fill="#9ca3af" text-anchor="middle" font-size="14">Toxicity ’</text>
-  <text x="25" y="150" fill="#9ca3af" text-anchor="middle" font-size="14" transform="rotate(-90, 25, 150)">Efficacy ’</text>
+  <text x="220" y="280" fill="#9ca3af" text-anchor="middle" font-size="14">Toxicity &rarr;</text>
+  <text x="25" y="150" fill="#9ca3af" text-anchor="middle" font-size="14" transform="rotate(-90, 25, 150)">Efficacy &rarr;</text>
   
   <!-- Title -->
   <text x="200" y="30" fill="#ffffff" text-anchor="middle" font-size="16" font-weight="bold">Pareto Front Analysis</text>

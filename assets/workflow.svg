@@ -13,12 +13,12 @@
   <rect width="800" height="250" fill="url(#wfBg)" rx="15"/>
   
   <!-- Title -->
-  <text x="400" y="30" fill="#ffffff" text-anchor="middle" font-size="18" font-weight="bold">= Workflow</text>
+  <text x="400" y="30" fill="#ffffff" text-anchor="middle" font-size="18" font-weight="bold">Workflow</text>
   
   <!-- Step 1: Generate -->
   <g transform="translate(80, 130)">
     <circle r="45" fill="#1e293b" stroke="#4ade80" stroke-width="3"/>
-    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24">>ì</text>
+    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24">DNA</text>
     <text x="0" y="20" fill="#4ade80" text-anchor="middle" font-size="10" font-weight="bold">Generate</text>
     <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">Create molecules</text>
     <text x="0" y="82" fill="#9ca3af" text-anchor="middle" font-size="9">from scaffolds</text>
@@ -30,10 +30,10 @@
   <!-- Step 2: Analyze -->
   <g transform="translate(240, 130)">
     <circle r="45" fill="#1e293b" stroke="#60a5fa" stroke-width="3"/>
-    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24">=Ê</text>
+    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24">CHART</text>
     <text x="0" y="20" fill="#60a5fa" text-anchor="middle" font-size="10" font-weight="bold">Analyze</text>
     <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">Calculate properties</text>
-    <text x="0" y="82" fill="#9ca3af" text-anchor="middle" font-size="9">& drug-likeness</text>
+    <text x="0" y="82" fill="#9ca3af" text-anchor="middle" font-size="9">&amp; drug-likeness</text>
   </g>
   
   <!-- Arrow 2-3 -->
@@ -42,7 +42,7 @@
   <!-- Step 3: Optimize -->
   <g transform="translate(400, 130)">
     <circle r="45" fill="#1e293b" stroke="#f472b6" stroke-width="3"/>
-    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24"><¯</text>
+    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24">TARGET</text>
     <text x="0" y="20" fill="#f472b6" text-anchor="middle" font-size="10" font-weight="bold">Optimize</text>
     <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">Find Pareto front</text>
     <text x="0" y="82" fill="#9ca3af" text-anchor="middle" font-size="9">optimal trade-offs</text>
@@ -54,7 +54,7 @@
   <!-- Step 4: Visualize -->
   <g transform="translate(560, 130)">
     <circle r="45" fill="#1e293b" stroke="#fbbf24" stroke-width="3"/>
-    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24">=È</text>
+    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24">GRAPH</text>
     <text x="0" y="20" fill="#fbbf24" text-anchor="middle" font-size="10" font-weight="bold">Visualize</text>
     <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">Plots, heatmaps</text>
     <text x="0" y="82" fill="#9ca3af" text-anchor="middle" font-size="9">3D views, clusters</text>
@@ -66,7 +66,7 @@
   <!-- Step 5: Export -->
   <g transform="translate(720, 130)">
     <circle r="45" fill="#1e293b" stroke="#a78bfa" stroke-width="3"/>
-    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24">=¾</text>
+    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24">SAVE</text>
     <text x="0" y="20" fill="#a78bfa" text-anchor="middle" font-size="10" font-weight="bold">Export</text>
     <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">CSV, JSON, SDF</text>
     <text x="0" y="82" fill="#9ca3af" text-anchor="middle" font-size="9">sessions</text>

@@ -13,11 +13,11 @@
   <rect width="700" height="500" fill="url(#archBg)" rx="15"/>
   
   <!-- Title -->
-  <text x="350" y="35" fill="#ffffff" text-anchor="middle" font-size="20" font-weight="bold"><× Architecture</text>
+  <text x="350" y="35" fill="#ffffff" text-anchor="middle" font-size="20" font-weight="bold">Architecture</text>
   
   <!-- Main App Box -->
   <rect x="250" y="60" width="200" height="60" fill="#1e293b" stroke="#4ade80" stroke-width="2" rx="8"/>
-  <text x="350" y="85" fill="#4ade80" text-anchor="middle" font-size="14" font-weight="bold">=¥ main.rs</text>
+  <text x="350" y="85" fill="#4ade80" text-anchor="middle" font-size="14" font-weight="bold">main.rs</text>
   <text x="350" y="105" fill="#9ca3af" text-anchor="middle" font-size="10">Entry point + Window</text>
   
   <!-- Arrow down -->
@@ -25,7 +25,7 @@
   
   <!-- App Module -->
   <rect x="200" y="155" width="300" height="180" fill="#0f172a" stroke="#60a5fa" stroke-width="2" rx="8"/>
-  <text x="350" y="175" fill="#60a5fa" text-anchor="middle" font-size="14" font-weight="bold">=æ app/</text>
+  <text x="350" y="175" fill="#60a5fa" text-anchor="middle" font-size="14" font-weight="bold">app/</text>
   
   <!-- State -->
   <rect x="220" y="190" width="120" height="50" fill="#1e293b" stroke="#f472b6" stroke-width="1" rx="5"/>
@@ -46,7 +46,7 @@
   <!-- Bottom modules -->
   <!-- Chemistry -->
   <rect x="50" y="380" width="150" height="100" fill="#0f172a" stroke="#4ade80" stroke-width="2" rx="8"/>
-  <text x="125" y="400" fill="#4ade80" text-anchor="middle" font-size="12" font-weight="bold">>ê chemistry/</text>
+  <text x="125" y="400" fill="#4ade80" text-anchor="middle" font-size="12" font-weight="bold">chemistry/</text>
   <text x="125" y="420" fill="#9ca3af" text-anchor="middle" font-size="9">descriptors.rs</text>
   <text x="125" y="435" fill="#9ca3af" text-anchor="middle" font-size="9">smiles.rs</text>
   <text x="125" y="450" fill="#9ca3af" text-anchor="middle" font-size="9">scaffolds.rs</text>
@@ -54,21 +54,21 @@
   
   <!-- Generation -->
   <rect x="220" y="380" width="150" height="100" fill="#0f172a" stroke="#60a5fa" stroke-width="2" rx="8"/>
-  <text x="295" y="400" fill="#60a5fa" text-anchor="middle" font-size="12" font-weight="bold">>ì generation/</text>
+  <text x="295" y="400" fill="#60a5fa" text-anchor="middle" font-size="12" font-weight="bold">generation/</text>
   <text x="295" y="430" fill="#9ca3af" text-anchor="middle" font-size="9">generator.rs</text>
   <text x="295" y="450" fill="#9ca3af" text-anchor="middle" font-size="9">Parallel generation</text>
   <text x="295" y="470" fill="#9ca3af" text-anchor="middle" font-size="9">Scaffold mixing</text>
   
   <!-- Optimization -->
   <rect x="390" y="380" width="150" height="100" fill="#0f172a" stroke="#f472b6" stroke-width="2" rx="8"/>
-  <text x="465" y="400" fill="#f472b6" text-anchor="middle" font-size="12" font-weight="bold">=Ê optimization/</text>
+  <text x="465" y="400" fill="#f472b6" text-anchor="middle" font-size="12" font-weight="bold">optimization/</text>
   <text x="465" y="430" fill="#9ca3af" text-anchor="middle" font-size="9">pareto.rs</text>
   <text x="465" y="450" fill="#9ca3af" text-anchor="middle" font-size="9">objectives.rs</text>
   <text x="465" y="470" fill="#9ca3af" text-anchor="middle" font-size="9">Multi-objective</text>
   
   <!-- Similarity -->
   <rect x="560" y="380" width="120" height="100" fill="#0f172a" stroke="#fbbf24" stroke-width="2" rx="8"/>
-  <text x="620" y="400" fill="#fbbf24" text-anchor="middle" font-size="12" font-weight="bold">=, similarity/</text>
+  <text x="620" y="400" fill="#fbbf24" text-anchor="middle" font-size="12" font-weight="bold">similarity/</text>
   <text x="620" y="430" fill="#9ca3af" text-anchor="middle" font-size="9">Fingerprints</text>
   <text x="620" y="450" fill="#9ca3af" text-anchor="middle" font-size="9">Tanimoto</text>
   <text x="620" y="470" fill="#9ca3af" text-anchor="middle" font-size="9">Clustering</text>

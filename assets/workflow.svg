@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250">
+  <defs>
+    <linearGradient id="wfBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1e2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d2d3d;stop-opacity:1" />
+    </linearGradient>
+    <marker id="wfArrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4ade80"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="250" fill="url(#wfBg)" rx="15"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" fill="#ffffff" text-anchor="middle" font-size="18" font-weight="bold">= Workflow</text>
+  
+  <!-- Step 1: Generate -->
+  <g transform="translate(80, 130)">
+    <circle r="45" fill="#1e293b" stroke="#4ade80" stroke-width="3"/>
+    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24">>ì</text>
+    <text x="0" y="20" fill="#4ade80" text-anchor="middle" font-size="10" font-weight="bold">Generate</text>
+    <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">Create molecules</text>
+    <text x="0" y="82" fill="#9ca3af" text-anchor="middle" font-size="9">from scaffolds</text>
+  </g>
+  
+  <!-- Arrow 1-2 -->
+  <line x1="135" y1="130" x2="195" y2="130" stroke="#4ade80" stroke-width="2" marker-end="url(#wfArrow)"/>
+  
+  <!-- Step 2: Analyze -->
+  <g transform="translate(240, 130)">
+    <circle r="45" fill="#1e293b" stroke="#60a5fa" stroke-width="3"/>
+    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24">=Ê</text>
+    <text x="0" y="20" fill="#60a5fa" text-anchor="middle" font-size="10" font-weight="bold">Analyze</text>
+    <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">Calculate properties</text>
+    <text x="0" y="82" fill="#9ca3af" text-anchor="middle" font-size="9">& drug-likeness</text>
+  </g>
+  
+  <!-- Arrow 2-3 -->
+  <line x1="295" y1="130" x2="355" y2="130" stroke="#4ade80" stroke-width="2" marker-end="url(#wfArrow)"/>
+  
+  <!-- Step 3: Optimize -->
+  <g transform="translate(400, 130)">
+    <circle r="45" fill="#1e293b" stroke="#f472b6" stroke-width="3"/>
+    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24"><¯</text>
+    <text x="0" y="20" fill="#f472b6" text-anchor="middle" font-size="10" font-weight="bold">Optimize</text>
+    <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">Find Pareto front</text>
+    <text x="0" y="82" fill="#9ca3af" text-anchor="middle" font-size="9">optimal trade-offs</text>
+  </g>
+  
+  <!-- Arrow 3-4 -->
+  <line x1="455" y1="130" x2="515" y2="130" stroke="#4ade80" stroke-width="2" marker-end="url(#wfArrow)"/>
+  
+  <!-- Step 4: Visualize -->
+  <g transform="translate(560, 130)">
+    <circle r="45" fill="#1e293b" stroke="#fbbf24" stroke-width="3"/>
+    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24">=È</text>
+    <text x="0" y="20" fill="#fbbf24" text-anchor="middle" font-size="10" font-weight="bold">Visualize</text>
+    <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">Plots, heatmaps</text>
+    <text x="0" y="82" fill="#9ca3af" text-anchor="middle" font-size="9">3D views, clusters</text>
+  </g>
+  
+  <!-- Arrow 4-5 -->
+  <line x1="615" y1="130" x2="675" y2="130" stroke="#4ade80" stroke-width="2" marker-end="url(#wfArrow)"/>
+  
+  <!-- Step 5: Export -->
+  <g transform="translate(720, 130)">
+    <circle r="45" fill="#1e293b" stroke="#a78bfa" stroke-width="3"/>
+    <text x="0" y="-5" fill="#ffffff" text-anchor="middle" font-size="24">=¾</text>
+    <text x="0" y="20" fill="#a78bfa" text-anchor="middle" font-size="10" font-weight="bold">Export</text>
+    <text x="0" y="70" fill="#9ca3af" text-anchor="middle" font-size="9">CSV, JSON, SDF</text>
+    <text x="0" y="82" fill="#9ca3af" text-anchor="middle" font-size="9">sessions</text>
+  </g>
+</svg>

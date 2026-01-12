@@ -18,6 +18,14 @@
 
 ---
 
+## 📸 Screenshot
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/michaelgermini/Drug-Candidate-Studio/main/assets/Drug-Candidate-Studio.png" alt="Drug Candidate Studio Interface" width="100%"/>
+</p>
+
+---
+
 ## ✨ Key Features
 
 <p align="center">

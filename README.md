@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="Drug Candidate Studio Logo" width="150"/>
+  <img src="https://raw.githubusercontent.com/michaelgermini/Drug-Candidate-Studio/main/assets/logo.svg" alt="Drug Candidate Studio Logo" width="150"/>
 </p>
 
 <h1 align="center">💊 Drug Candidate Studio</h1>
@@ -21,7 +21,7 @@
 ## ✨ Key Features
 
 <p align="center">
-  <img src="assets/features.svg" alt="Features Overview" width="100%"/>
+  <img src="https://raw.githubusercontent.com/michaelgermini/Drug-Candidate-Studio/main/assets/features.svg" alt="Features Overview" width="100%"/>
 </p>
 
 | Feature | Description |
@@ -41,7 +41,7 @@
 ## 🔄 Workflow
 
 <p align="center">
-  <img src="assets/workflow.svg" alt="Workflow" width="100%"/>
+  <img src="https://raw.githubusercontent.com/michaelgermini/Drug-Candidate-Studio/main/assets/workflow.svg" alt="Workflow" width="100%"/>
 </p>
 
 ---
@@ -49,7 +49,7 @@
 ## 🧬 Molecular Generation
 
 <p align="center">
-  <img src="assets/molecule.svg" alt="Molecule Generation" width="500"/>
+  <img src="https://raw.githubusercontent.com/michaelgermini/Drug-Candidate-Studio/main/assets/molecule.svg" alt="Molecule Generation" width="500"/>
 </p>
 
 The application generates molecules using:
@@ -62,7 +62,7 @@ The application generates molecules using:
 ## 📊 Pareto Front Analysis
 
 <p align="center">
-  <img src="assets/pareto-front.svg" alt="Pareto Front" width="500"/>
+  <img src="https://raw.githubusercontent.com/michaelgermini/Drug-Candidate-Studio/main/assets/pareto-front.svg" alt="Pareto Front" width="500"/>
 </p>
 
 Candidates on the **Pareto front** are "non-dominated" — no other candidate is better in *all* objectives simultaneously. These represent optimal trade-offs between:
@@ -79,7 +79,7 @@ Candidates on the **Pareto front** are "non-dominated" — no other candidate is
 ## 🏗️ Architecture
 
 <p align="center">
-  <img src="assets/architecture.svg" alt="Architecture" width="100%"/>
+  <img src="https://raw.githubusercontent.com/michaelgermini/Drug-Candidate-Studio/main/assets/architecture.svg" alt="Architecture" width="100%"/>
 </p>
 
 ```

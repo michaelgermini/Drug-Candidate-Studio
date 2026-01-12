@@ -18,16 +18,16 @@
     <text x="0" y="-15" fill="#4ade80" text-anchor="middle" font-size="14" font-weight="bold">Lipinski's Ro5</text>
     
     <!-- Criteria -->
-    <text x="-70" y="10" fill="#9ca3af" font-size="10">MW d 500</text>
+    <text x="-70" y="10" fill="#9ca3af" font-size="10">MW &lt;= 500</text>
     <circle cx="-50" cy="10" r="5" fill="#4ade80"/>
     
-    <text x="-70" y="30" fill="#9ca3af" font-size="10">LogP d 5</text>
+    <text x="-70" y="30" fill="#9ca3af" font-size="10">LogP &lt;= 5</text>
     <circle cx="-50" cy="30" r="5" fill="#4ade80"/>
     
-    <text x="-70" y="50" fill="#9ca3af" font-size="10">HBD d 5</text>
+    <text x="-70" y="50" fill="#9ca3af" font-size="10">HBD &lt;= 5</text>
     <circle cx="-50" cy="50" r="5" fill="#4ade80"/>
     
-    <text x="-70" y="70" fill="#9ca3af" font-size="10">HBA d 10</text>
+    <text x="-70" y="70" fill="#9ca3af" font-size="10">HBA &lt;= 10</text>
     <circle cx="-50" cy="70" r="5" fill="#4ade80"/>
     
     <text x="0" y="95" fill="#4ade80" text-anchor="middle" font-size="11">3/4 to pass</text>
@@ -38,10 +38,10 @@
     <rect x="-80" y="-40" width="160" height="140" fill="#1e293b" stroke="#60a5fa" stroke-width="2" rx="8"/>
     <text x="0" y="-15" fill="#60a5fa" text-anchor="middle" font-size="14" font-weight="bold">Veber Rules</text>
     
-    <text x="-70" y="10" fill="#9ca3af" font-size="10">RotBonds d 10</text>
+    <text x="-70" y="10" fill="#9ca3af" font-size="10">RotBonds &lt;= 10</text>
     <circle cx="-50" cy="10" r="5" fill="#60a5fa"/>
     
-    <text x="-70" y="30" fill="#9ca3af" font-size="10">PSA d 140 r</text>
+    <text x="-70" y="30" fill="#9ca3af" font-size="10">PSA &lt;= 140 A2</text>
     <circle cx="-50" cy="30" r="5" fill="#60a5fa"/>
     
     <text x="0" y="60" fill="#60a5fa" text-anchor="middle" font-size="11">Oral bioavailability</text>
@@ -71,10 +71,10 @@
     <text x="0" y="-5" fill="#4ade80" text-anchor="middle" font-size="12" font-weight="bold">Example: Aspirin</text>
     <text x="0" y="15" fill="#9ca3af" text-anchor="middle" font-size="10" font-family="monospace">CC(=O)Oc1ccccc1C(=O)O</text>
     
-    <text x="-140" y="40" fill="#4ade80" font-size="10">MW: 180 </text>
-    <text x="-50" y="40" fill="#4ade80" font-size="10">LogP: 1.2 </text>
-    <text x="40" y="40" fill="#4ade80" font-size="10">HBD: 1 </text>
-    <text x="130" y="40" fill="#4ade80" font-size="10">HBA: 4 </text>
+    <text x="-140" y="40" fill="#4ade80" font-size="10">MW: 180 OK</text>
+    <text x="-50" y="40" fill="#4ade80" font-size="10">LogP: 1.2 OK</text>
+    <text x="40" y="40" fill="#4ade80" font-size="10">HBD: 1 OK</text>
+    <text x="130" y="40" fill="#4ade80" font-size="10">HBA: 4 OK</text>
     
     <text x="0" y="60" fill="#4ade80" text-anchor="middle" font-size="11" font-weight="bold">Passes all rules</text>
   </g>

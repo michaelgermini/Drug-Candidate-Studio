@@ -187,13 +187,104 @@ Enable from **View** menu:
 
 ## 🧪 Chemistry Module
 
+The chemistry module provides comprehensive molecular analysis and generation capabilities, including property calculations, drug-likeness assessment, and similarity analysis.
+
+### Molecular Descriptors
+
+The application calculates key molecular properties from SMILES notation:
+
+| Descriptor | Description | Calculation Method |
+|------------|-------------|-------------------|
+| **Molecular Weight (MW)** | Sum of atomic masses | Atomic mass lookup |
+| **LogP** | Partition coefficient (lipophilicity) | Fragment-based estimation |
+| **Polar Surface Area (PSA)** | Surface area of polar atoms | Simplified topological PSA |
+| **H-bond Donors (HBD)** | Number of N-H, O-H bonds | Pattern matching |
+| **H-bond Acceptors (HBA)** | Number of N, O atoms | Atom counting |
+| **Rotatable Bonds** | Single bonds between non-terminal atoms | Bond topology analysis |
+
+These descriptors are used to assess drug-likeness and calculate objective functions.
+
 ### Drug-likeness Rules
 
-| Rule | Criteria |
-|------|----------|
-| **Lipinski's Ro5** | MW ≤ 500, LogP ≤ 5, HBD ≤ 5, HBA ≤ 10 |
-| **Veber** | Rotatable bonds ≤ 10, PSA ≤ 140 Ų |
-| **PAINS** | No reactive/toxic substructures |
+The application implements three major drug-likeness filters:
+
+#### 📋 Lipinski's Rule of Five
+
+The "Rule of Five" predicts oral bioavailability. A compound passes if it meets **3 out of 4** criteria:
+
+| Criterion | Threshold | Rationale |
+|-----------|-----------|-----------|
+| **Molecular Weight** | ≤ 500 Da | Larger molecules have poor absorption |
+| **LogP** | ≤ 5 | High lipophilicity reduces solubility |
+| **H-bond Donors** | ≤ 5 | Too many HBD reduces membrane permeability |
+| **H-bond Acceptors** | ≤ 10 | Excessive HBA reduces oral bioavailability |
+
+**Example**: Aspirin (MW=180, LogP=1.2, HBD=1, HBA=4) ✅ **Passes all criteria**
+
+#### 🔄 Veber Rules
+
+Optimized for oral bioavailability prediction:
+
+| Criterion | Threshold | Rationale |
+|-----------|-----------|-----------|
+| **Rotatable Bonds** | ≤ 10 | Flexibility affects oral absorption |
+| **Polar Surface Area** | ≤ 140 Ų | High PSA reduces intestinal permeability |
+
+**Example**: Metformin (RotBonds=0, PSA=68.5) ✅ **Excellent oral bioavailability**
+
+#### ⚠️ PAINS (Pan-Assay Interference Compounds)
+
+Detects **20+ problematic substructures** that cause false positives in assays:
+
+| Alert Type | Examples | Severity |
+|------------|----------|----------|
+| **Reactive groups** | Epoxides, Michael acceptors, Acyl halides | High |
+| **Frequent hitters** | Quinones, Rhodanines, Catechols | High |
+| **Unstable groups** | Peroxides, Hydrazines, Disulfides | Medium |
+| **Genotoxic alerts** | Nitro-aromatics, Azides, Nitroso | High |
+| **Metabolic liabilities** | Anilines, Thioureas | Low |
+
+**Example**: A molecule with `C1OC1` (epoxide) triggers a **High severity PAINS alert** ⚠️
+
+### SMILES Generation
+
+The application generates valid SMILES strings using multiple strategies:
+
+1. **Scaffold-based generation** (60%): Uses real pharmaceutical templates
+2. **Hybrid generation** (12%): Combines scaffold fragments with linkers
+3. **Random generation** (28%): Creates novel molecular architectures
+
+**Validation**: All generated SMILES are checked for:
+- Balanced parentheses and brackets
+- Valid ring closures
+- Chemical valence rules
+- Fallback to known valid SMILES if generation fails
+
+### Similarity Analysis
+
+#### Tanimoto Coefficient
+
+Calculates molecular similarity using path-based fingerprints:
+
+- **Fingerprint size**: 2048 bits
+- **Features**: Atoms, atom pairs, 3-atom paths, functional groups, ring presence
+- **Range**: 0.0 (dissimilar) to 1.0 (identical)
+
+**Example**: 
+- `CCO` (ethanol) vs `CCCO` (propanol): **Similarity ≈ 0.75**
+- `c1ccccc1` (benzene) vs `O` (water): **Similarity ≈ 0.15**
+
+#### Clustering
+
+Groups similar molecules using the **leader algorithm**:
+- Configurable similarity threshold (default: 0.5)
+- Identifies cluster centroids
+- Supports up to 200 molecules for performance
+
+**Use cases**:
+- Identify structurally similar candidates
+- Reduce redundancy in candidate sets
+- Explore chemical diversity
 
 ### Pharmaceutical Scaffolds
 

@@ -205,6 +205,8 @@ The chemistry module provides comprehensive molecular analysis and generation ca
 
 The application calculates key molecular properties from SMILES notation:
 
+<div style="width: 100%; overflow-x: auto;">
+
 | Descriptor | Description | Calculation Method |
 |------------|-------------|-------------------|
 | **Molecular Weight (MW)** | Sum of atomic masses | Atomic mass lookup |
@@ -213,6 +215,8 @@ The application calculates key molecular properties from SMILES notation:
 | **H-bond Donors (HBD)** | Number of N-H, O-H bonds | Pattern matching |
 | **H-bond Acceptors (HBA)** | Number of N, O atoms | Atom counting |
 | **Rotatable Bonds** | Single bonds between non-terminal atoms | Bond topology analysis |
+
+</div>
 
 These descriptors are used to assess drug-likeness and calculate objective functions.
 
@@ -228,6 +232,8 @@ The application implements three major drug-likeness filters:
 
 The "Rule of Five" predicts oral bioavailability. A compound passes if it meets **3 out of 4** criteria:
 
+<div style="width: 100%; overflow-x: auto;">
+
 | Criterion | Threshold | Rationale |
 |-----------|-----------|-----------|
 | **Molecular Weight** | ≤ 500 Da | Larger molecules have poor absorption |
@@ -235,22 +241,30 @@ The "Rule of Five" predicts oral bioavailability. A compound passes if it meets 
 | **H-bond Donors** | ≤ 5 | Too many HBD reduces membrane permeability |
 | **H-bond Acceptors** | ≤ 10 | Excessive HBA reduces oral bioavailability |
 
+</div>
+
 **Example**: Aspirin (MW=180, LogP=1.2, HBD=1, HBA=4) ✅ **Passes all criteria**
 
 #### 🔄 Veber Rules
 
 Optimized for oral bioavailability prediction:
 
+<div style="width: 100%; overflow-x: auto;">
+
 | Criterion | Threshold | Rationale |
 |-----------|-----------|-----------|
 | **Rotatable Bonds** | ≤ 10 | Flexibility affects oral absorption |
 | **Polar Surface Area** | ≤ 140 Å² | High PSA reduces intestinal permeability |
+
+</div>
 
 **Example**: Metformin (RotBonds=0, PSA=68.5) ✅ **Excellent oral bioavailability**
 
 #### ⚠️ PAINS (Pan-Assay Interference Compounds)
 
 Detects **20+ problematic substructures** that cause false positives in assays:
+
+<div style="width: 100%; overflow-x: auto;">
 
 | Alert Type | Examples | Severity |
 |------------|----------|----------|
@@ -259,6 +273,8 @@ Detects **20+ problematic substructures** that cause false positives in assays:
 | **Unstable groups** | Peroxides, Hydrazines, Disulfides | Medium |
 | **Genotoxic alerts** | Nitro-aromatics, Azides, Nitroso | High |
 | **Metabolic liabilities** | Anilines, Thioureas | Low |
+
+</div>
 
 **Example**: A molecule with `C1OC1` (epoxide) triggers a **High severity PAINS alert** ⚠️
 

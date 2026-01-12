@@ -199,6 +199,10 @@ The chemistry module provides comprehensive molecular analysis and generation ca
 
 ### Molecular Descriptors
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/michaelgermini/Drug-Candidate-Studio/main/assets/molecular-descriptors.svg" alt="Molecular Descriptors" width="100%"/>
+</p>
+
 The application calculates key molecular properties from SMILES notation:
 
 | Descriptor | Description | Calculation Method |
@@ -213,6 +217,10 @@ The application calculates key molecular properties from SMILES notation:
 These descriptors are used to assess drug-likeness and calculate objective functions.
 
 ### Drug-likeness Rules
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/michaelgermini/Drug-Candidate-Studio/main/assets/druglikeness-rules.svg" alt="Drug-likeness Rules" width="100%"/>
+</p>
 
 The application implements three major drug-likeness filters:
 
@@ -256,6 +264,10 @@ Detects **20+ problematic substructures** that cause false positives in assays:
 
 ### SMILES Generation
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/michaelgermini/Drug-Candidate-Studio/main/assets/smiles-generation.svg" alt="SMILES Generation" width="100%"/>
+</p>
+
 The application generates valid SMILES strings using multiple strategies:
 
 1. **Scaffold-based generation** (60%): Uses real pharmaceutical templates
@@ -269,6 +281,10 @@ The application generates valid SMILES strings using multiple strategies:
 - Fallback to known valid SMILES if generation fails
 
 ### Similarity Analysis
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/michaelgermini/Drug-Candidate-Studio/main/assets/similarity-analysis.svg" alt="Similarity Analysis" width="100%"/>
+</p>
 
 #### Tanimoto Coefficient
 

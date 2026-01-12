@@ -32,6 +32,8 @@
   <img src="https://raw.githubusercontent.com/michaelgermini/Drug-Candidate-Studio/main/assets/features.svg" alt="Features Overview" width="100%"/>
 </p>
 
+<div style="width: 100%; overflow-x: auto;">
+
 | Feature | Description |
 |---------|-------------|
 | 🧬 **Molecular Generation** | Generate drug-like molecules from 30+ real pharmaceutical scaffolds |
@@ -43,6 +45,8 @@
 | ⭐ **Annotations** | Notes and favorites on candidates |
 | 🎨 **Themes** | Dark/Light mode with custom accent colors |
 | 📥 **Import/Export** | SMILES, CSV, JSON, SDF formats |
+
+</div>
 
 ---
 
@@ -75,12 +79,16 @@ The application generates molecules using:
 
 Candidates on the **Pareto front** are "non-dominated" — no other candidate is better in *all* objectives simultaneously. These represent optimal trade-offs between:
 
+<div style="width: 100%; overflow-x: auto;">
+
 | Objective | Direction | Description |
 |-----------|-----------|-------------|
 | **Efficacy** | Maximize ↑ | Drug effectiveness based on drug-likeness |
 | **Toxicity** | Minimize ↓ | Predicted toxicity risk (PAINS alerts, LogP) |
 | **Synthesis Cost** | Minimize ↓ | Chemical complexity |
 | **Manufacturing Cost** | Minimize ↓ | Scale-up feasibility |
+
+</div>
 
 ---
 
@@ -384,6 +392,8 @@ Groups similar molecules using the **leader algorithm**:
 
 ## 📦 Dependencies
 
+<div style="width: 100%; overflow-x: auto;">
+
 | Crate | Purpose |
 |-------|---------|
 | `eframe` / `egui` | Native GUI framework |
@@ -393,6 +403,8 @@ Groups similar molecules using the **leader algorithm**:
 | `serde` / `serde_json` | Serialization |
 | `crossbeam-channel` | Thread communication |
 | `chrono` | Timestamps |
+
+</div>
 
 ---
 
